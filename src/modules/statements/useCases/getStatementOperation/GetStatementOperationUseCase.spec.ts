@@ -56,7 +56,7 @@ describe("Create Statement", () => {
         user_id: createDeposit.user_id, 
         statement_id: createDeposit.id!
        })
-      console.log(getStatement)
+//console.log(getStatement)
        expect(getStatement).toHaveProperty("id");
        expect(getStatement.amount).toEqual(100);
 

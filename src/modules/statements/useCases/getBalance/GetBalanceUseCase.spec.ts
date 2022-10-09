@@ -73,7 +73,7 @@ describe("Get balance", () => {
        const getBalance = await getBalanceUseCase.execute({
         user_id: createDeposit.user_id
        })
-        console.log(getBalance)
+       // console.log(getBalance)
         expect(getBalance).toHaveProperty("statement");
         expect(getBalance.balance).toEqual(900);
 
